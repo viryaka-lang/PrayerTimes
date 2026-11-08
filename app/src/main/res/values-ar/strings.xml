@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أوقات الصلاة بالرباط</string>
+    <string name="widget_label">أوقات الصلاة بالرباط</string>
+    <string name="widget_desc">الصلاة القادمة مع عدّ تنازلي كبير وأوقات اليوم</string>
+    <string name="dual_widget_label">الرباط · الآن والقادمة</string>
+    <string name="dual_widget_desc">الوقت منذ دخول الصلاة (30 دقيقة) والعدّ التنازلي للقادمة</string>
+    <string name="city">الرباط</string>
+    <string name="next_prayer">الصلاة القادمة</string>
+    <string name="remaining">متبقية</string>
+    <string name="prayer_now">حان وقت الصلاة</string>
+    <string name="fajr_ends">ينتهي وقت الفجر عند</string>
+    <string name="since_adhan">منذ الأذان</string>
+    <string name="now_badge">الآن</string>
+    <string name="minutes_short">دقيقة</string>
+    <string name="at_time">على الساعة %1$s</string>
+    <string name="next_badge">القادمة</string>
+    <string name="today">اليوم</string>
+    <string name="tomorrow">غدًا</string>
+    <string name="yesterday">أمس</string>
+    <string name="back_to_today">العودة إلى اليوم</string>
+    <string name="prev_day">اليوم السابق</string>
+    <string name="next_day">اليوم التالي</string>
+    <string name="no_data">لا توجد بيانات</string>
+    <string name="no_data_long">لا يتضمن جدول أوقات الصلاة بيانات لهذا التاريخ.</string>
+    <string name="footer">أوقات مدينة الرباط، المغرب · جدول 2026–2027 · اسحب القائمة لتغيير اليوم</string>
+    <string name="row_description">%1$s، %2$s</string>
+    <string name="row_description_next">%1$s، %2$s، الصلاة القادمة</string>
+    <string name="countdown_description">%1$s بعد %2$s</string>
+    <string name="since_description">دخل وقت %1$s منذ %2$s</string>
+    <string name="row_description_now">%1$s، %2$s، الصلاة الحالية</string>
+
+    <string name="hijri_date">%1$s %2$d هـ</string>
+
+    <string name="settings">الإعدادات</string>
+    <string name="back">رجوع</string>
+    <string name="language">اللغة</string>
+    <string name="language_system">لغة الهاتف</string>
+    <string name="language_hint">عند اختيار العربية يظهر التطبيق والودجت وشاشة Android Auto بالعربية فقط.</string>
+    <string name="clock">تنسيق الوقت</string>
+    <string name="clock_system">إعداد الهاتف</string>
+    <string name="clock_24">24 ساعة (16:12)</string>
+    <string name="clock_12">12 ساعة (4:12 م)</string>
+    <string name="alerts_section">التنبيهات</string>
+    <string name="alerts_title">تنبيهات الصلاة</string>
+    <string name="alerts_on">مفعّل: تنبيه قبل كل صلاة بـ10 دقائق وعند دخول وقتها، على الهاتف وفوق الخرائط في Android Auto. اضغط للإيقاف.</string>
+    <string name="alerts_off">غير مفعّل. اضغط لتلقي تنبيه قبل كل صلاة بـ10 دقائق وعند دخول وقتها، وأيضًا فوق الخرائط في Android Auto.</string>
+    <string name="alerts_blocked">الإشعارات محظورة لهذا التطبيق. اضغط للسماح بها.</string>
+    <string name="alert_soon">%1$s بعد %2$d دقائق</string>
+    <string name="alert_now">حان وقت %1$s</string>
+    <string name="channel_name">تنبيهات الصلاة</string>
+    <string name="channel_desc">قبل كل صلاة بـ10 دقائق وعند دخول وقتها</string>
+    <string name="reminders_section">التذكيرات</string>
+    <string name="reminder_duha">صلاة الضحى</string>
+    <string name="reminder_duha_desc">قبل الظهر بساعة</string>
+    <string name="reminder_istijaba">ساعة الاستجابة يوم الجمعة</string>
+    <string name="reminder_istijaba_desc">كل جمعة، قبل المغرب بساعة</string>
+    <string name="reminder_qiyam">قيام الليل</string>
+    <string name="reminder_qiyam_desc">قبل الفجر بساعة</string>
+    <string name="reminders_channel_name">التذكيرات</string>
+    <string name="reminders_channel_desc">الضحى وساعة الاستجابة يوم الجمعة وقيام الليل</string>
+    <string name="hijri_section">التقويم الهجري</string>
+    <string name="hijri_title">التواريخ الهجرية</string>
+    <string name="hijri_builtin">التواريخ المدمجة في التطبيق</string>
+    <string name="hijri_updated">حُدّثت في %1$s</string>
+    <string name="hijri_checked">آخر تحقق %1$s</string>
+    <string name="hijri_next">التحقق القادم %1$s، عند إعلان الشهر الجديد</string>
+    <string name="hijri_tap">اضغط للتحقق الآن.</string>
+    <string name="hijri_checking">جارٍ التحقق…</string>
+    <string name="hijri_result_updated">تم تنزيل تواريخ هجرية جديدة</string>
+    <string name="hijri_result_same">التواريخ الهجرية محدّثة</string>
+    <string name="hijri_result_failed">تعذّر الاتصال بالخادم. حاول لاحقًا.</string>
+    <string name="widget_section">التوقيت</string>
+    <string name="exact_title">توقيت دقيق</string>
+    <string name="exact_on">مفعّل: يتحدّث الودجت والتنبيهات في الوقت تمامًا.</string>
+    <string name="exact_off">غير مفعّل: قد يتأخر الودجت والتنبيهات بضع دقائق. اضغط للسماح.</string>
+    <string name="widgets_section">الودجت</string>
+    <string name="lock_screen_hint">يمكن وضع الودجتين أيضًا على شاشة القفل في الهواتف التي تسمح بودجت التطبيقات هناك: Android 16 QPR1 أو أحدث (على شاشة القفل، اسحب من الحافة اليمنى واضغط «تعديل»). وفي هواتف سامسونج قد يتيحهما قسم LockStar في تطبيق Good Lock.</string>
+    <string name="add_dual_widget">＋ إضافة ودجت \"الآن والقادمة\"</string>
+    <string name="add_large_widget">＋ إضافة الودجت الكبير</string>
+    <string name="about">حول التطبيق</string>
+    <string name="about_text">أوقات الصلاة لمدينة الرباط من جدول 2026–2027 المدمج، تُعرض دائمًا بالتوقيت المغربي. يعمل دون اتصال بالإنترنت، وعند إعلان كل شهر هجري جديد يجلب التواريخ المحدّثة (HijriCalendarMaghrib على GitHub).</string>
+
+    <string-array name="prayer_names">
+        <item>الفجر</item>
+        <item>الشروق</item>
+        <item>الظهر</item>
+        <item>العصر</item>
+        <item>المغرب</item>
+        <item>العشاء</item>
+    </string-array>
+</resources>

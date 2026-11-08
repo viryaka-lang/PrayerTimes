@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Stand-in for the drawn progress ring in the widget picker preview. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:pathData="M24,5a19,19 0 1,1 0,38a19,19 0 1,1 0,-38"
+        android:strokeWidth="3"
+        android:strokeColor="#1AFFFFFF" />
+    <path
+        android:pathData="M24,5A19,19 0 1,1 11.8,38.6"
+        android:strokeWidth="3"
+        android:strokeColor="#E6C177"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M8.3,38.6a3.5,3.5 0 1,0 7,0a3.5,3.5 0 1,0 -7,0"
+        android:fillColor="#E6C177" />
+</vector>

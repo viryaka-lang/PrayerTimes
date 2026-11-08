@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="64dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_nav_button"
+                android:contentDescription="@string/back"
+                android:src="@drawable/ic_back"
+                android:tint="@color/text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:accessibilityHeading="true"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/settings"
+                android:textColor="@color/text"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/SectionLabel"
+            android:text="@string/language" />
+
+        <RadioGroup
+            android:id="@+id/lang_group"
+            style="@style/SettingsCard">
+
+            <RadioButton
+                android:id="@+id/lang_system"
+                style="@style/SettingsOption"
+                android:text="@string/language_system" />
+
+            <RadioButton
+                android:id="@+id/lang_en"
+                style="@style/SettingsOption"
+                android:text="@string/language_en" />
+
+            <RadioButton
+                android:id="@+id/lang_ar"
+                style="@style/SettingsOption"
+                android:text="@string/language_ar" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingHorizontal="8dp"
+            android:text="@string/language_hint"
+            android:textColor="@color/text_muted"
+            android:textSize="13sp" />
+
+        <TextView
+            style="@style/SectionLabel"
+            android:text="@string/clock" />
+
+        <RadioGroup
+            android:id="@+id/clock_group"
+            style="@style/SettingsCard">
+
+            <RadioButton
+                android:id="@+id/clock_system"
+                style="@style/SettingsOption"
+                android:text="@string/clock_system" />
+
+            <RadioButton
+                android:id="@+id/clock_24"
+                style="@style/SettingsOption"
+                android:text="@string/clock_24" />
+
+            <RadioButton
+                android:id="@+id/clock_12"
+                style="@style/SettingsOption"
+                android:text="@string/clock_12" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/SectionLabel"
+            android:text="@string/alerts_section" />
+
+        <LinearLayout
+            android:id="@+id/alerts_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alerts_title"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/alerts_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text_muted"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/SectionLabel"
+            android:text="@string/reminders_section" />
+
+        <!-- Filled from Reminders, one row_reminder each. -->
+        <LinearLayout
+            android:id="@+id/reminders_box"
+            style="@style/SettingsCard"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/reminders_blocked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:minHeight="48dp"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="8dp"
+            android:text="@string/alerts_blocked"
+            android:textAlignment="viewStart"
+            android:textColor="@color/gold"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <TextView
+            style="@style/SectionLabel"
+            android:text="@string/hijri_section" />
+
+        <LinearLayout
+            android:id="@+id/hijri_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hijri_title"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/hijri_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text_muted"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/SectionLabel"
+            android:text="@string/widget_section" />
+
+        <LinearLayout
+            android:id="@+id/exact_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exact_title"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/exact_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text_muted"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/SectionLabel"
+            android:text="@string/widgets_section" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:paddingVertical="6dp">
+
+            <TextView
+                android:id="@+id/add_dual_widget"
+                style="@style/SettingsAction"
+                android:text="@string/add_dual_widget" />
+
+            <TextView
+                android:id="@+id/add_large_widget"
+                style="@style/SettingsAction"
+                android:text="@string/add_large_widget" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingHorizontal="8dp"
+            android:text="@string/lock_screen_hint"
+            android:textColor="@color/text_muted"
+            android:textSize="13sp" />
+
+        <TextView
+            style="@style/SectionLabel"
+            android:text="@string/about" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:lineSpacingExtra="3dp"
+            android:padding="20dp"
+            android:text="@string/about_text"
+            android:textColor="@color/text_muted"
+            android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>

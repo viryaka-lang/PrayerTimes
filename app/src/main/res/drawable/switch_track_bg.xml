@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Reminder switch track; the stock one fades any tint to 30%, too dim on the dark cards. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="7dp" />
+    <size
+        android:width="36dp"
+        android:height="14dp" />
+    <solid android:color="@color/switch_track" />
+</shape>

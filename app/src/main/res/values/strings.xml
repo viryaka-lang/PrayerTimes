@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rabat Prayer Times</string>
+    <string name="widget_label">Rabat Prayer Times</string>
+    <string name="widget_desc">Next prayer with a large live countdown and today\'s times</string>
+    <string name="dual_widget_label">Rabat · Now &amp; next</string>
+    <string name="dual_widget_desc">Time since the current prayer (for 30 min) and countdown to the next</string>
+    <string name="city">Rabat</string>
+    <string name="next_prayer">Next prayer</string>
+    <string name="remaining">remaining</string>
+    <string name="prayer_now">Prayer time now</string>
+    <string name="fajr_ends">Fajr time ends at</string>
+    <string name="since_adhan">since adhan</string>
+    <string name="now_badge">Now</string>
+    <string name="minutes_short">min</string>
+    <string name="at_time">at %1$s</string>
+    <string name="next_badge">Next</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="back_to_today">Back to today</string>
+    <string name="prev_day">Previous day</string>
+    <string name="next_day">Next day</string>
+    <string name="no_data">No data</string>
+    <string name="no_data_long">The prayer times table has no data for this date.</string>
+    <string name="footer">Times for Rabat, Morocco · 2026–2027 table · swipe the list to change day</string>
+    <string name="row_description">%1$s, %2$s</string>
+    <string name="row_description_next">%1$s, %2$s, next prayer</string>
+    <string name="countdown_description">%1$s in %2$s</string>
+    <string name="since_description">%1$s began %2$s ago</string>
+    <string name="row_description_now">%1$s, %2$s, current prayer</string>
+
+    <string name="hijri_date">%1$s %2$d AH</string>
+
+    <string name="settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="language">Language</string>
+    <string name="language_system">Phone default</string>
+    <!-- Each language is named in itself, whatever the current language. -->
+    <string name="language_en" translatable="false">English</string>
+    <string name="language_ar" translatable="false">العربية</string>
+    <string name="language_hint">Arabic shows the whole app, widget and Android Auto screen in Arabic only.</string>
+    <string name="clock">Time format</string>
+    <string name="clock_system">Phone default</string>
+    <string name="clock_24">24-hour (16:12)</string>
+    <string name="clock_12">12-hour (4:12 PM)</string>
+    <string name="alerts_section">Alerts</string>
+    <string name="alerts_title">Prayer alerts</string>
+    <string name="alerts_on">On: a pop-up 10 minutes before and at each prayer, on the phone and over Maps in Android Auto. Tap to turn off.</string>
+    <string name="alerts_off">Off. Tap to get a pop-up 10 minutes before and at each prayer, also over Maps in Android Auto.</string>
+    <string name="alerts_blocked">Notifications are blocked for this app. Tap to allow them.</string>
+    <string name="alert_soon">%1$s in %2$d min</string>
+    <string name="alert_now">%1$s time now</string>
+    <string name="channel_name">Prayer alerts</string>
+    <string name="channel_desc">10 minutes before and at each prayer time</string>
+    <string name="reminders_section">Reminders</string>
+    <string name="reminder_duha">Duha prayer</string>
+    <string name="reminder_duha_desc">1 hour before Dhuhr</string>
+    <string name="reminder_istijaba">Friday\'s hour of response</string>
+    <string name="reminder_istijaba_desc">Fridays, 1 hour before Maghrib</string>
+    <string name="reminder_qiyam">Night prayer (Qiyam al-layl)</string>
+    <string name="reminder_qiyam_desc">1 hour before Fajr</string>
+    <string name="reminders_channel_name">Reminders</string>
+    <string name="reminders_channel_desc">Duha, Friday\'s hour of response and the night prayer</string>
+    <string name="hijri_section">Hijri calendar</string>
+    <string name="hijri_title">Hijri dates</string>
+    <string name="hijri_builtin">Dates built into the app</string>
+    <string name="hijri_updated">Updated %1$s</string>
+    <string name="hijri_checked">checked %1$s</string>
+    <string name="hijri_next">Next check %1$s, when the new month is announced</string>
+    <string name="hijri_tap">Tap to check now.</string>
+    <string name="hijri_checking">Checking…</string>
+    <string name="hijri_result_updated">New Hijri dates downloaded</string>
+    <string name="hijri_result_same">Hijri dates are up to date</string>
+    <string name="hijri_result_failed">Couldn\'t reach the server. Try again later.</string>
+    <string name="widget_section">Timing</string>
+    <string name="exact_title">Exact timing</string>
+    <string name="exact_on">On: the widget and alerts change right on time.</string>
+    <string name="exact_off">Off: the widget and alerts may be a few minutes late. Tap to allow.</string>
+    <string name="widgets_section">Widgets</string>
+    <string name="lock_screen_hint">Both widgets can also go on the lock screen on phones that allow app widgets there: Android 16 QPR1 or later (on the lock screen, swipe in from the right edge and tap Edit). On Samsung phones, Good Lock\'s LockStar module may offer them.</string>
+    <string name="add_dual_widget">＋ Add the \"Now &amp; next\" widget</string>
+    <string name="add_large_widget">＋ Add the large widget</string>
+    <string name="about">About</string>
+    <string name="about_text">Prayer times for Rabat from the bundled 2026–2027 table, always shown in Moroccan time. Works offline; when a new Hijri month is announced it fetches the updated dates (HijriCalendarMaghrib on GitHub).</string>
+
+    <string-array name="prayer_names">
+        <item>Fajr</item>
+        <item>Sunrise</item>
+        <item>Dhuhr</item>
+        <item>Asr</item>
+        <item>Maghrib</item>
+        <item>Isha</item>
+    </string-array>
+
+    <string-array name="prayer_names_ar" translatable="false">
+        <item>الفجر</item>
+        <item>الشروق</item>
+        <item>الظهر</item>
+        <item>العصر</item>
+        <item>المغرب</item>
+        <item>العشاء</item>
+    </string-array>
+</resources>

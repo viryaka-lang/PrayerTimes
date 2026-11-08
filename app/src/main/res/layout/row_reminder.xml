@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One reminder in settings: its switch, with when it comes below. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="8dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="12dp">
+
+    <Switch
+        android:id="@+id/reminder_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/text"
+        android:textSize="17sp"
+        android:track="@drawable/switch_track_bg" />
+
+    <TextView
+        android:id="@+id/reminder_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:textColor="@color/text_muted"
+        android:textSize="13sp" />
+</LinearLayout>

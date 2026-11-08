@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Crescent -->
+    <path
+        android:fillColor="@color/gold"
+        android:pathData="M49.16,32.01 A24,24 0 1,0 70.78,68.03 A21,21 0 0,1 49.16,32.01 Z" />
+    <!-- Star -->
+    <path
+        android:fillColor="@color/gold"
+        android:pathData="M70,37 L71.65,41.73 L76.66,41.84 L72.66,44.87 L74.11,49.66 L70,46.8 L65.89,49.66 L67.34,44.87 L63.34,41.84 L68.35,41.73 Z" />
+</vector>

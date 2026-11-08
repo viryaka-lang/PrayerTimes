@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Faint eight-pointed star (two nested khatam outlines) peeking in from the top corner of
+     the widgets. The viewport crops it; autoMirrored keeps it in the corner in Arabic. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:autoMirrored="true"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Outer star: a diamond and a square around (66,34) -->
+    <path
+        android:pathData="M66,-10L110,34L66,78L22,34Z"
+        android:strokeWidth="1.1"
+        android:strokeAlpha="0.08"
+        android:strokeColor="#E6C177" />
+    <path
+        android:pathData="M34.9,2.9H97.1V65.1H34.9Z"
+        android:strokeWidth="1.1"
+        android:strokeAlpha="0.08"
+        android:strokeColor="#E6C177" />
+    <!-- Inner star -->
+    <path
+        android:pathData="M66,10L90,34L66,58L42,34Z"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.055"
+        android:strokeColor="#E6C177" />
+    <path
+        android:pathData="M49,17H83V51H49Z"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.055"
+        android:strokeColor="#E6C177" />
+    <path
+        android:pathData="M57,34a9,9 0 1,0 18,0a9,9 0 1,0 -18,0"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.055"
+        android:strokeColor="#E6C177" />
+</vector>

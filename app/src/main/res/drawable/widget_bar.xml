@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Thin gold progress bar on a faint track; scale keeps the rounded tip as it grows. It fills
+     from the left; the ProgressBars set mirrorForRtl so Arabic fills from the right. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="@color/divider" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <scale
+            android:scaleGravity="left|center_vertical"
+            android:scaleWidth="100%">
+            <shape>
+                <gradient
+                    android:angle="0"
+                    android:startColor="@color/gold_dark"
+                    android:endColor="@color/gold" />
+                <corners android:radius="2dp" />
+            </shape>
+        </scale>
+    </item>
+</layer-list>

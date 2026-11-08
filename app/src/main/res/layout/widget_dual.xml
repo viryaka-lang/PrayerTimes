@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- "Now & next", stacked (2x2 and taller). The gold "now" pill shows only during the
+     30 minutes after a prayer, its bar filling as they pass; the bottom bar fills towards the
+     next event. Default texts are only for the widget picker preview. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_widget"
+    android:clipToOutline="true"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/d_since_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_widget_active"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/d_since_icon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_isha"
+                android:tint="@color/on_gold" />
+
+            <TextView
+                android:id="@+id/d_since_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-medium"
+                android:maxLines="1"
+                android:text="Isha"
+                android:textColor="@color/on_gold"
+                android:textSize="13sp" />
+
+            <Chronometer
+                android:id="@+id/d_since_chrono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFeatureSettings="tnum"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:textColor="@color/on_gold"
+                android:textDirection="ltr"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/d_since_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="4dp"
+            android:indeterminate="false"
+            android:max="1000"
+            android:mirrorForRtl="true"
+            android:maxHeight="3dp"
+            android:minHeight="3dp"
+            android:progress="400"
+            android:progressDrawable="@drawable/widget_bar_on_gold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="4dp">
+
+        <ImageView
+            android:id="@+id/d_next_icon"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_fajr"
+            android:tint="@color/gold" />
+
+        <TextView
+            android:id="@+id/d_next_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:text="Fajr · 05:18"
+            android:textColor="@color/text"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <Chronometer
+        android:id="@+id/d_next_chrono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:countDown="true"
+        android:fontFamily="sans-serif-medium"
+        android:fontFeatureSettings="tnum"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:paddingHorizontal="4dp"
+        android:textColor="@color/gold"
+        android:textDirection="ltr"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/d_next_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.05"
+        android:paddingHorizontal="4dp"
+        android:text="@string/remaining"
+        android:textColor="@color/text_muted"
+        android:textSize="11sp" />
+
+    <ProgressBar
+        android:id="@+id/d_next_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="6dp"
+        android:indeterminate="false"
+        android:max="1000"
+        android:mirrorForRtl="true"
+        android:maxHeight="3dp"
+        android:minHeight="3dp"
+        android:progress="300"
+        android:progressDrawable="@drawable/widget_bar" />
+</LinearLayout>
